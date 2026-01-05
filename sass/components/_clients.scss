@@ -21,14 +21,15 @@
 }
 
 .clients__item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-center;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
 
   width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
-  fill: #afb1b8;
+  border: 1px solid var(--icon-color);
+  fill: var(--icon-color);
 
   border-radius: 4px;
 
