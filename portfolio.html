@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,7 +25,7 @@
           >Web<span class="logo__accent">Studio</span></a
         >
 
-        <nav class="header___nav">
+        <nav class="header__nav">
           <ul class="nav">
             <li class="nav__item">
               <a href="index.html" class="nav__link">Студія</a>
@@ -90,10 +90,10 @@
 
       <section class="projects">
         <div class="container">
-          <h1 class="projects__title--hidden">projects</h1>
+          <h1 class="projects__title projects__title--hidden">projects</h1>
 
           <ul class="projects__list">
-            <li class="card">
+            <li class="projects__card card">
               <div class="card__thumb">
                 <img
                   class="card__image"
@@ -114,7 +114,7 @@
               <p class="card__text">Веб-сайт</p>
             </li>
 
-            <li class="card">
+            <li class="projects__card card">
               <div class="card__thumb">
                 <img
                   class="card__image"
@@ -134,7 +134,7 @@
               <h2 class="card__title">Постер New Orlean vs Golden Star</h2>
               <p class="card__text">Дизайн</p>
             </li>
-            <li class="card">
+            <li class="projects__card card">
               <div class="card__thumb">
                 <img
                   class="card__image"
@@ -154,7 +154,7 @@
               <h2 class="card__title">Ресторан Seafood</h2>
               <p class="card__text">Додаток</p>
             </li>
-            <li class="card">
+            <li class="projects__card card">
               <div class="card__thumb">
                 <img
                   class="card__image"
@@ -174,7 +174,7 @@
               <h2 class="card__title">Проєкт Prime</h2>
               <p class="card__text">Маркетинг</p>
             </li>
-            <li class="card">
+            <li class="projects__card card">
               <div class="card__thumb">
                 <img
                   class="card__image"
@@ -194,7 +194,7 @@
               <h2 class="card__title">Проєкт Boxes</h2>
               <p class="card__text">Додаток</p>
             </li>
-            <li class="card">
+            <li class="projects__card card">
               <div class="card__thumb">
                 <img
                   class="card__image"
@@ -214,7 +214,7 @@
               <h2 class="card__title">Inspiration has no Borders</h2>
               <p class="card__text">Веб-сайт</p>
             </li>
-            <li class="card">
+            <li class="projects__card card">
               <div class="card__thumb">
                 <img
                   class="card__image"
@@ -234,7 +234,7 @@
               <h2 class="card__title">Видання Limited Edition</h2>
               <p class="card__text">Дизайн</p>
             </li>
-            <li class="card">
+            <li class="projects__card card">
               <div class="card__thumb">
                 <img
                   class="card__image"
@@ -254,7 +254,7 @@
               <h2 class="card__title">Проєкт LAB</h2>
               <p class="card__text">Маркетинг</p>
             </li>
-            <li class="card">
+            <li class="projects__card card">
               <div class="card__thumb">
                 <img
                   class="card__image"
@@ -281,10 +281,10 @@
 
     <footer class="footer">
       <div class="footer__container container">
-        <div class="left-part">
+        <div class="footer__left">
           <div class="footer__logo">
             <a href="index.html" class="logo"
-              >Web<span class="footer__logo--right">Studio</span></a
+              >Web<span class="footer__logo--accent">Studio</span></a
             >
           </div>
 
@@ -312,8 +312,8 @@
             </ul>
           </address>
         </div>
-        <div class="middle-part">
-          <h3 class="footer__join join">ПРИЄДНУЙТЕСЬ</h3>
+        <div class="footer__middle">
+          <h3 class="footer__join">ПРИЄДНУЙТЕСЬ</h3>
           <ul class="footer__social-links social-links">
             <li class="social-links__item--footer">
               <a href="https://www.instagram.com/">
@@ -345,8 +345,8 @@
             </li>
           </ul>
         </div>
-        <div class="right-part">
-          <h3 class="footer__subscribe subscribe">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h3>
+        <div class="footer__right">
+          <h3 class="footer__subscribe">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h3>
           <form class="subscribe__form">
             <label>
               <input
@@ -357,7 +357,7 @@
             /></label>
             <button class="subscribe__button" type="submit">
               Підписатися
-              <svg width="24" height="24" class="icon-send">
+              <svg width="24" height="24" class="subscribe__icon">
                 <use href="./images/send.svg"></use>
               </svg>
             </button>

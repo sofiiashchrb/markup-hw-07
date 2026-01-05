@@ -86,7 +86,7 @@ img {
   margin-bottom: 28px;
   color: var(--accent-color);
 }
-.footer__logo--right {
+.footer__logo--accent {
   color: var(--primary-white-color);
 }
 
@@ -663,7 +663,7 @@ img {
   margin-bottom: 16px;
 }
 
-.social-links {
+.team__social-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
